@@ -1,0 +1,12 @@
+
+a=input("Enter a binary number: ") 
+
+
+#Convert binary string to a decimal number and assign it to variable b
+b=int(a, 2)
+
+
+if(b%3==0):
+    print('Multiple of 3')
+else:
+    print('Not a multiple of 3')
