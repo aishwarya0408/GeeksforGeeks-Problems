@@ -1,0 +1,13 @@
+import math
+#Enter n and r values to compute nCr
+n,r=map(int, input().split())
+if(n==1 and n==0):
+    print('1')
+elif(r>=0 and n>=r):
+    a=math.factorial(n)
+    b=math.factorial(n-r)
+    c=math.factorial(r)
+    d=a//b//c #nCr=(n/r)/(n-r)
+    print(d)
+else:
+    print('0')
