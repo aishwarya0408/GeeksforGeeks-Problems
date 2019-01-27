@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[2]:
 
 
 def thirdLargest(arr, n):
@@ -15,8 +12,6 @@ print("Enter the array:")
 a=list(map(int,input().split()))
 thirdLargest(a,m)
 
-
-# In[ ]:
 
 
 
