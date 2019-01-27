@@ -1,0 +1,13 @@
+def pos(n):
+    for i in range(n-1,-1,-1):
+        print(i,end=" ")
+def neg(n):
+    for i in range(n,1,1):
+        print(i,end=" ")
+a=int(input("Enter a number:"))
+if(a==0):
+    print("Already Zero")
+elif(a>0):
+    pos(a)
+else:
+    neg(a)
