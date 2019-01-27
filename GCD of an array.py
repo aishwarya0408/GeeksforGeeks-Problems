@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[4]:
 
 
 import math
@@ -16,7 +13,7 @@ else:
     print(a[0])
 
 
-# In[ ]:
+
 
 
 
