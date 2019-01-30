@@ -1,0 +1,16 @@
+t=int(input())
+while(t>0):
+    t-=1
+    s=input()
+    a=""
+    b=""
+    for i in s:
+        if i not in a:
+            a+=i
+        else:
+            b+=i
+            break
+    if(len(b)>0):
+        print(b)
+    else:
+        print("-1")
