@@ -1,0 +1,16 @@
+t=int(input())
+while(t>0):
+    t-=1
+    m=input()
+    n=input()
+    a=""
+    for i in m:
+        if i not in n:
+            if i not in a:
+                a+=i
+    for i in n:
+        if i not in m:
+            if i not in a:
+                a+=i
+    a=sorted(a)
+    print("".join(a))
