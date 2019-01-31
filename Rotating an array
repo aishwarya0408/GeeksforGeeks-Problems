@@ -1,0 +1,7 @@
+t=int(input())
+while(t>0):
+    t-=1
+    n=int(input())
+    a=list(map(int, input().split()))
+    d=int(input())
+    print(*(a[d:]+a[:d]))
