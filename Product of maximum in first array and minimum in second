@@ -1,0 +1,10 @@
+t=int(input())
+while(t>0):
+    t-=1
+    n=int(input())
+    a=list(map(int, input().split()))
+    m=int(input())
+    b=list(map(int, input().split()))
+    x=sorted(a,reverse=True)
+    y=sorted(b,reverse=False)
+    print(x[0]*y[0])
