@@ -1,0 +1,21 @@
+t=int(input())
+while(t>0):
+    t-=1
+    n=int(input())
+    c = 1
+    x,y = 2,n-2
+    while c == 1:
+        p,q = 0,0
+        for j in range(2,x):
+            if(x % j == 0):
+                p = 1
+                break
+        for j in range(2,y):
+            if(y % j == 0):
+                q = 1
+                break
+        if(p == 0 and q == 0):
+            print(x,y)
+            c = 0
+        x = x+1
+        y = y-1
