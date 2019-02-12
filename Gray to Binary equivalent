@@ -1,0 +1,9 @@
+t=int(input())
+while(t>0):
+    t-=1
+    n=int(input())
+    d=0
+    while(n):
+        d=d^n
+        n=n>>1
+    print(d)
